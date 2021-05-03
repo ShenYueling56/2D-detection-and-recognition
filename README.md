@@ -6,10 +6,10 @@ https://github.com/xingyizhou/CenterTrack
 https://github.com/LINGYUWEN/HyperLPR-master  
 https://ai.arcsoft.com.cn/third/ldpage.html?utm_source=baidu6&utm_campaign=hr39&utm_medium=cpc&bd_vid=6859621431400586012
 
-  
-  
+   
 <br>
 <br>  
+
 ## CenterTrack
 &emsp;&emsp;该项目实现了多目标人的追踪，但在人物在画面中被遮挡后重新出现会给定新的ID。
 
