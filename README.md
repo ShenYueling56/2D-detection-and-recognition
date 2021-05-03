@@ -37,7 +37,7 @@ python test.py tracking --exp_id mot17_fulltrain_sc --dataset mot --dataset_vers
 <br>  
   
 ## HyperLPR-master  
-&emsp;&emsp;HyperLPR-master是我找到的对车牌识别比较准确的项目，可以检测出一张图片中的所有车牌并进行识别，可根据需要选择一定可信度的识别结果
+&emsp;&emsp;HyperLPR-master是我找到的对车牌识别比较准确的项目，可以检测出一张图片中的所有车牌并进行识别，可根据需要选择一定可信度的识别结果。
   
 * 配置环境：主要是tensorflow的配置，参考版本为2.2.0，其余按`HyperLPR-master/README.md`即可。
 * 运行代码：  
@@ -54,7 +54,7 @@ python demo.py
 
 * 配置环境：不建议使用OpenCV4,我在运行时报错，建议使用OpenCV3.4.5;  
 其余SDK的使用配置参考`ArcSoft_ArcFace_Linux_x64_V3.0/samplecode/ReadMe.txt`
-* 运行：
+* 运行代码：
 ```
 cd ArcSoft_ArcFace_Linux_x64_V3.0/samplecode  
 mkdir build  

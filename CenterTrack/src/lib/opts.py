@@ -165,7 +165,9 @@ class opts(object):
     self.parser.add_argument('--depth_scale', type=float, default=1,
                              help='')
     self.parser.add_argument('--save_results', action='store_true')
-    self.parser.add_argument('--not_run_eval_motchallenge', action='store_true')
+
+    self.parser.add_argument('--not_run_eval_motchallenge', action='store_true')#是否保存评估结果
+
     self.parser.add_argument('--load_results', default='')
     self.parser.add_argument('--use_loaded_results', action='store_true')
     self.parser.add_argument('--ignore_loaded_cats', default='')
