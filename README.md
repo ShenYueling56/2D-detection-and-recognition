@@ -1,11 +1,12 @@
 # 2D-detection-and-recognition
 &emsp;&emsp;该项目包含我在做有关二维检测和识别的任务时跑通的一些代码，三个任务分别是多目标人的追踪（MOT）、车牌的识别以及人脸识别，对应的项目名称为CenterTrack、HyperLPR-master以及Arcface，前两个为github上的开源项目，后一个为虹软的开源人脸识别SDK。
 
-原项目地址如下：<br>
+* 原项目地址如下：<br>
 https://github.com/xingyizhou/CenterTrack  
 https://github.com/LINGYUWEN/HyperLPR-master  
 https://ai.arcsoft.com.cn/third/ldpage.html?utm_source=baidu6&utm_campaign=hr39&utm_medium=cpc&bd_vid=6859621431400586012
 
+  
   
   
 ## CenterTrack
@@ -31,6 +32,7 @@ python test.py tracking --exp_id mot17_fulltrain_sc --dataset mot --dataset_vers
 ```--not_run_eval_motchallenge``` 表示不进行结果的评估（节约跑代码的时间）  
   
   
+  
 ## HyperLPR-master  
 &emsp;&emsp;HyperLPR-master是我找到的对车牌识别比较准确的项目，可以检测出一张图片中的所有车牌并进行识别，可根据需要选择一定可信度的识别结果
   
@@ -39,6 +41,7 @@ python test.py tracking --exp_id mot17_fulltrain_sc --dataset mot --dataset_vers
 ```
 python demo.py
 ```
+  
   
   
 ## Arcface 
