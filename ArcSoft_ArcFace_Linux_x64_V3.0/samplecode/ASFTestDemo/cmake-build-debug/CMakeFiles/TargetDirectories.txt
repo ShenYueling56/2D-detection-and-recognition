@@ -1,0 +1,4 @@
+/face/ArcSoft_ArcFace_Linux_x64_V3.0/samplecode/ASFTestDemo/cmake-build-debug/CMakeFiles/edit_cache.dir
+/face/ArcSoft_ArcFace_Linux_x64_V3.0/samplecode/ASFTestDemo/cmake-build-debug/CMakeFiles/AFCFaceDemo_Linux.dir
+/face/ArcSoft_ArcFace_Linux_x64_V3.0/samplecode/ASFTestDemo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/face/ArcSoft_ArcFace_Linux_x64_V3.0/samplecode/ASFTestDemo/cmake-build-debug/CMakeFiles/arcsoft_face_engine_test.dir

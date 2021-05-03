@@ -1,0 +1,9 @@
+/home/xuzz27/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /face/ArcSoft_ArcFace_Linux_x64_V3.0/samplecode/ASFTestDemo
+-- OpenCV library status:
+--     config: /usr/local/share/OpenCV
+--     versi on: 3.4.5
+--     libraries: opencv_calib3d;opencv_photo;opencv_features2d;opencv_highgui;opencv_imgproc;opencv_videoio;opencv_videostab;opencv_shape;opencv_objdetect;opencv_flann;opencv_core;opencv_video;opencv_ml;opencv_imgcodecs;opencv_superres;opencv_stitching;opencv_dnn
+--     include path: /usr/local/include;/usr/local/include/opencv
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /face/ArcSoft_ArcFace_Linux_x64_V3.0/samplecode/ASFTestDemo/cmake-build-debug
