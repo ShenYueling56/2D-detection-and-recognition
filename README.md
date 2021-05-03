@@ -25,7 +25,7 @@ nohup  python main.py tracking --exp_id mot17_fulltrain_sc --dataset mot --datas
 nohup python test.py tracking --exp_id mot17_fulltrain_sc --dataset mot --dataset_version 17test --pre_hm --ltrb_amodal --track_thresh 0.4 --pre_thresh 0.5 --load_model ../exp/tracking/mot17_fulltrain_sc/model_last.pth > mot17_fulltrain_sc_test.log 2>&1  &
 ```
 
-* 修改：我在代码运行过程中加入了可视化程序，可以实现实时对相邻两帧中的人进行标注，不同颜色显示ID、位置、速度,实现代码增加在`CenterTrack/src/libdetector.py`中:
+* 修改：我在代码运行过程中加入了可视化程序，可以实现实时对相邻两帧中的人进行标注，不同颜色显示ID、位置、速度,实现代码增加在`CenterTrack/src/lib/detector.py`中:
 ```
 python test.py tracking --exp_id mot17_fulltrain_sc --dataset mot --dataset_version 17test --pre_hm --ltrb_amodal --track_thresh 0.4 --pre_thresh 0.5 --resume --load_results ../exp/tracking/mot17_fulltrain_sc/save_results_mot17test.json --use_loaded_results --not_run_eval_motchallenge
 ```
@@ -60,4 +60,4 @@ cmake ..
 make  
 ./arcsoft_face_engine_test  
 ```
-* 更多有关SDK函数的信息可查阅`ArcSoft_ArcFace_Linux_x64_V3.0/docARCSOFT_ARC_FACE_DEVELOPER'S_GUIDE.pdf`
+* 更多有关SDK函数的信息可查阅`ArcSoft_ArcFace_Linux_x64_V3.0/doc/ARCSOFT_ARC_FACE_DEVELOPER'S_GUIDE.pdf`
