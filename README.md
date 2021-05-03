@@ -22,7 +22,7 @@ nohup测试代码参考：
 nohup python test.py tracking --exp_id mot17_fulltrain_sc --dataset mot --dataset_version 17test --pre_hm --ltrb_amodal --track_thresh 0.4 --pre_thresh 0.5 --load_model ../exp/tracking/mot17_fulltrain_sc/model_last.pth > mot17_fulltrain_sc_test.log 2>&1  &
 ```
 
-我在跑代码时加入了可视化程序，可以实现实时对相邻两帧中的人进行标注，不同颜色显示ID、位置、速度:
+我在跑代码时加入了可视化程序，可以实现实时对相邻两帧中的人进行标注，不同颜色显示ID、位置、速度,实现代码增加在CenterTrack/src/libdetector.py中:
 ```
 python test.py tracking --exp_id mot17_fulltrain_sc --dataset mot --dataset_version 17test --pre_hm --ltrb_amodal --track_thresh 0.4 --pre_thresh 0.5 --resume --load_results ../exp/tracking/mot17_fulltrain_sc/save_results_mot17test.json --use_loaded_results --not_run_eval_motchallenge
 ```
