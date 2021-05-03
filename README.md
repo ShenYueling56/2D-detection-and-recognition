@@ -8,7 +8,6 @@ https://ai.arcsoft.com.cn/third/ldpage.html?utm_source=baidu6&utm_campaign=hr39&
 
    
 <br>
-<br>  
 
 ## CenterTrack
 &emsp;&emsp;该项目实现了多目标人的追踪，但在人物在画面中被遮挡后重新出现会给定新的ID。
@@ -33,7 +32,6 @@ python test.py tracking --exp_id mot17_fulltrain_sc --dataset mot --dataset_vers
 ```--not_run_eval_motchallenge``` 表示不进行结果的评估（节约跑代码的时间）  
   
   
-<br>
 <br>  
   
 ## HyperLPR-master  
@@ -46,8 +44,7 @@ python demo.py
 ```
   
   
-<br>
-<br>  
+<br> 
   
 ## Arcface 
 &emsp;&emsp;开源SDK有C++和Java版本，我下载的为C++版本，利用该SDK和Opencv中的函数实现图片中的人脸检测、识别特征和匹配,并在代码中增添了可视化函数。
