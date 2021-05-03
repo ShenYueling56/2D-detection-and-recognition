@@ -1,7 +1,7 @@
 # 2D-detection-and-recognition
-  该项目包含我在做有关二位检测和识别的任务时跑通的一些代码，三个任务分别是多目标人的追踪（MOT）、车牌的识别以及人脸识别，对应的项目名称为CenterTrack、HyperLPR-master以及Arcface，前两个为github上的开源项目，后一个为虹软的开源人脸识别SDK。
+<<该项目包含我在做有关二位检测和识别的任务时跑通的一些代码，三个任务分别是多目标人的追踪（MOT）、车牌的识别以及人脸识别，对应的项目名称为CenterTrack、HyperLPR-master以及Arcface，前两个为github上的开源项目，后一个为虹软的开源人脸识别SDK。
 
-原项目地址如下：
+原项目地址如下：<br>
 https://github.com/xingyizhou/CenterTrack  
 https://github.com/LINGYUWEN/HyperLPR-master  
 https://ai.arcsoft.com.cn/third/ldpage.html?utm_source=baidu6&utm_campaign=hr39&utm_medium=cpc&bd_vid=6859621431400586012
